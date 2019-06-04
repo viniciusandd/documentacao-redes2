@@ -4,7 +4,7 @@
 
 ## Diário de Bordo
 
-> Abaixo, está uma tabela que lista as atividades realizadas pelo grupo. A tabela está em ordem cronológica e cada linha explica qual era o objetivo da atividade. O diário de bordo foi colocado na documentação para facilitar uma suposta réplica, ou seja, olhando pela sequência de atividade dos membros pode-se ter uma ídeia de como começar e terminar a implementação completa.
+> Abaixo, está uma tabela que lista as atividades realizadas pelo grupo. A tabela está em ordem cronológica e cada linha explica qual era o objetivo da atividade. O diário de bordo foi colocado na documentação para facilitar uma suposta réplica, ou seja, olhando pela sequência de atividades dos membros pode-se ter uma ídeia de como começar e terminar a implementação completa.
 
 | Data     | Título | Responsável     | Descrição |
 |    :----:   |    :----:   |    :----:   |    :----:   |
@@ -28,7 +28,7 @@
 | 22/05/2019  | Testes das VLANs | Cristian | Realização de testes das VLANs no laboratório |
 | 22/05/2019  | Validando a Solução | Vinicius | Últimos testes realizados com o servidor de arquivos. O servidor estava com sua configuração completa, ou seja, grupos definidos conforme departamento da empresa |
 
-## Documentação - João Vitor Veronese Vieira
+## Controle de Banda e Bloqueio de Sites
 
 > Este documento contém o passo a passo realizado para possibilitar a criação de duas máquinas virtuais (utilizando o programa **VirtualBox**), uma com o software _firewall pfSense_ instalada e a outra com o _Debian 9_ para servir como um cliente e demonstrar as regras e restrições em funcionamento.
 
@@ -269,7 +269,7 @@
 		- HTTPS/SSL Interception: check
 		- CA: Proxy (selecionar)
 
-## Documentação - Kelwin Komka
+## Servidor DNS
 
 > Este documento contém o passo a passo realizado para habilitar o uso do serviço de DNS e resolvedor de DNS.
 
@@ -288,7 +288,7 @@
 	- Em System > General Setup é possivel adicionar servidores DNS que o resolvedor irá direcionar as buscas de DNS.
 	- Caso a opção DNS Server Override seja desabilitada, deve-se informar um servidor de DNS em DNS Server, acima da configuração inicialmente citada.
 
-## Documentação - Cristian Abramchuk
+## Divisão de Redes
 
 > Este documento contém o passo a passo realizado para separar a rede dos visitantes da rede interna da empresa.
 
@@ -315,7 +315,7 @@
 	- Clique em salvar.
 	- Selecione a REDEINTERNA, siga os mesmos passos e coloque o range "192.168.20.100 e 192.168.20.200".
 
-## Documentação - Vinicius Emanoel Andrade
+## Servidor de Arquivos
 
 >   Essa parte da documentação contém o passo a passo para criar um servidor **UbuntuServer** com o **Samba4**. Ele será o servidor de arquivos do projeto e poderá ser testado com clientes **Windows**.
 
@@ -325,7 +325,7 @@
 
 - Para realizar todos os testes será necessário ter na rede o maior número possível de máquinas com o sistema operacional **Windows**, elas podem ser máquinas físicas ou virtuais (pode-se utilizar o **virtualbox**).
 
-### Criando a máquina UbuntuServer (Servidor de Arquivos)
+### Criando o Servidor de Arquivos com o UbuntuServer (Problema 4)
 
 ##### Configurações Externas (VirtualBox)
 
